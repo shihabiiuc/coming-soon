@@ -1,0 +1,74 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Young Serif', serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #222222; //fallback
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.47)), url("./img/cityscape.jpg") no-repeat center;
+  background-size: cover;
+}
+
+section.container {
+  text-align: center;
+  padding: 15px;
+  h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    color: rgba($color: #FFFFFF, $alpha: 0.55);
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 3em;
+    @media(min-width: 768px) {
+      font-size: 7em;
+    }
+  }
+  p {
+    font-size: 1.7em;
+    letter-spacing: 1.1px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+  #countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .countdown-item {
+      margin: 10px;
+      padding: 20px;
+      font-size: 1.5rem;
+      background-color: rgba($color: #EA4335, $alpha: 0.65);
+      border: 1px solid #EA4335;
+      border-radius: 2px;
+      min-width: 114px;
+
+      span {
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+        font-size: 1.5em;
+        @media(min-width: 768px) {
+          font-size: 2.7em;
+        }
+      }
+      p {
+        margin: 5px 0 0;
+        font-size: 0.5em;
+        color: #FBBC05;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
