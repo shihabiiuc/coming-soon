@@ -1,5 +1,5 @@
 // Set the launch date for your website (YYYY, MM-1, DD, HH, MM, SS)
-const launchDate = new Date(2024, 1, 8, 12, 0, 0);
+const launchDate = new Date(2024, 5, 19, 12, 0, 0);
 
 function updateCountdown() {
     const currentDate = new Date();
