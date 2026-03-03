@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -46,7 +48,7 @@ section.container h1 {
 section.container p {
   font-size: 1.7em;
   letter-spacing: 1.1px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 section.container #countdown {
@@ -67,14 +69,14 @@ section.container #countdown .countdown-item {
   padding: 20px;
   font-size: 1.5rem;
   background-color: rgba(234, 67, 53, 0.65);
-  border: 1px solid #EA4335;
+  border: 1px solid #ea4335;
   border-radius: 2px;
   min-width: 114px;
 }
 section.container #countdown .countdown-item span {
   font-family: Arial, sans-serif;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1.5em;
 }
 @media (min-width: 768px) {
@@ -85,6 +87,6 @@ section.container #countdown .countdown-item span {
 section.container #countdown .countdown-item p {
   margin: 5px 0 0;
   font-size: 0.5em;
-  color: #FBBC05;
+  color: #fbbc05;
   text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

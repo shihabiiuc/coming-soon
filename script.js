@@ -1,5 +1,5 @@
 // Set the launch date for your website (YYYY, MM-1, DD, HH, MM, SS)
-const launchDate = new Date(2025, 11, 1, 12, 0, 0);
+const launchDate = new Date(2026, 3, 1, 12, 0, 0);
 
 function updateCountdown() {
   const currentDate = new Date();
@@ -7,7 +7,7 @@ function updateCountdown() {
 
   const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
   const hours = Math.floor(
-    (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
   );
   const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
